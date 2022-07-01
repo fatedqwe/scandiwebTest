@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&display=swap');
+
+.main_container {
+    margin-left: 150px;
+    margin-right: 150px;
+    max-width: auto;
+
+}
+
+h1 {
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+
+
+}
+
+.main {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    width: 300px;
+    justify-content: space-evenly;
+    padding-right: 20px;
+
+}
+
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+button {
+    width: auto;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    transition: all 0.5s;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+
+
+
+
+/* .blackline {
+    width: 100%;
+    height: 1.7px;
+    background-color: black;
+    margin-top: -17px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+} */
+
+.box1 {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 2px solid;
+    width: 300px;
+    height: 250px;
+    margin: 35px;
+
+}
+
+.product-boxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+
+}
+
+
+.box-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.boxSize {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.weight {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.demension_row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+
+    margin: 0 auto;
+}
+
+#height_box {
+    display: flex;
+
+    align-items: center;
+}
+
+/* .width {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.lenght {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 0 auto;
+} */
+
+.delete-checkbox {
+    margin: 30px
+}
+
+.buttonSave {
+    display: flex;
+    width: 300px;
+    justify-content: space-evenly;
+    padding-right: 20px;
+}
+
+.button3:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button4:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.SKU {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Montserrat', sans-serif;
+    margin: 25px;
+    padding-left: 25px;
+
+
+
+}
+
+.name {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Montserrat', sans-serif;
+    margin: 25px;
+    padding-left: 25px;
+
+}
+
+.price {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Montserrat', sans-serif;
+    margin: 25px;
+    padding-left: 25px;
+}
+
+
+
+
+.select {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Montserrat', sans-serif;
+    margin: 25px;
+    padding-top: 70px;
+    padding-left: 25px;
+
+
+}
+
+
+
+.productType {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    padding: 3px;
+    border-radius: 1px;
+}
+
+
+
+.text_SKU {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 89px;
+    border-radius: 1px;
+
+}
+
+.text_name {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 74px;
+    border-radius: 1px;
+
+}
+
+.text_price {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 61px;
+    border-radius: 1px;
+
+
+}
+
+.scandiweb_test {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 300px;
+}
+
+
+#size {
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 200px;
+}
+
+#size_input {
+    margin-left: 47px;
+    width: 163px;
+    height: 16px;
+    border-radius: 1px;
+
+}
+
+#weight {
+    margin-left: 200px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#weight_input {
+    margin-left: 23px;
+    width: 163px;
+    height: 16px;
+    border-radius: 1px;
+
+}
+
+#height {
+    margin-left: 200px;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+#height_input {
+    margin-left: 23px;
+    width: 163px;
+    height: 16px;
+    border-radius: 1px;
+    margin-top: 25px;
+}
+
+#width {
+    margin-left: 200px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#width_input {
+    margin-left: 28px;
+    width: 163px;
+    height: 16px;
+    border-radius: 1px;
+    margin-top: 25px;
+
+}
+
+#length {
+    margin-left: 200px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+#length_input {
+    margin-left: 20px;
+    width: 163px;
+    height: 16px;
+    border-radius: 1px;
+    margin-top: 25px;
+}
+
+hr {
+    position: absolute;
+
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    border: none;
+    background-color: black;
+    color: black;
+    height: 2px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+footer {
+    position: fixed;
+    right: 150px;
+    left: 150px;
+    bottom: 0px;
+    height: 80px;
+}
+
+p {
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: flex-end;
+}
