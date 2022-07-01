@@ -30,9 +30,9 @@ include 'product.php';
                 <a class="button" href="product-add.php">
                     <button style="vertical-align:middle ; color:white ; background-color:blue"><span>ADD</span></button>
                 </a>
-                <form action="script/delete.php" method='POST'>
+                <form action="dbase/delete.php" method='POST'>
                     <button class="button2" type='submit' style="color:white ; background-color: #f44336; ">MASS DELETE</button>
-                    <!-- <button type="submit" name="delete" onclick="location.reload()" id="delete-product-btn"> MASS DELETE</button> -->
+
 
             </div>
 
@@ -109,7 +109,7 @@ include 'product.php';
 
         <p>Scandiweb Test Assignment</p>
     </footer>
-    <script src="jquery/script.js"></script>
+
 </body>
 
 </html>

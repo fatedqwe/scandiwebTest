@@ -20,7 +20,7 @@ include "product.php";
 
 
 <body>
-    <form id="product_form" action="script/create.php" method="post">
+    <form id="product_form" action="dbase/create.php" method="post">
         <div class="main_container">
             <div class="main">
                 <h1>Product Add</h1>
@@ -110,7 +110,7 @@ include "product.php";
         label.setAttribute("id", "size");
         const input = document.createElement("input");
         input.setAttribute("type", "number");
-        // input.setAttribute("oninvalid", "this.setCustomValidity('Please, submit required data');");
+
         input.setAttribute("required", " ");
         input.setAttribute("name", "size");
         input.setAttribute("id", "size_input");
@@ -148,7 +148,7 @@ include "product.php";
     const createFurnitureInput = (parentElement) => {
         let container = document.createElement("div");
         let container2 = document.createElement("div");
-        let container3 = document.createElement("div");
+
         let labelHeight = document.createElement("label");
         let labelWidth = document.createElement("label");
         let labelLength = document.createElement("label");
@@ -175,21 +175,16 @@ include "product.php";
         inputLength.setAttribute("id", "length_input");
 
 
-        // parentElement.append(labelHeigth);
-        // parentElement.append(inputHeigth);
+
         container.append(labelHeight);
         container.append(inputHeight);
         parentElement.append(container);
-        // parentElement.append(labelWidth);
-        // parentElement.append(inputWidth);
         container2.append(labelWidth);
         container2.append(inputWidth);
         parentElement.append(container2);
         parentElement.append(labelLength);
         parentElement.append(inputLength);
-        // container3.append(labelWidth);
-        // container3.append(inputWidth);
-        // parentElement.append(container3);
+
 
 
     }
