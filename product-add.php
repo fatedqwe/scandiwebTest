@@ -63,7 +63,7 @@ include "product.php";
             <option selected disabled hidden>Select product</option>
 
             <?php foreach (Product::getAllTypes() as $key => $value) : ?>
-                <option value="<? echo $key; ?>"><? echo $value; ?></option>
+                <option value="<?php echo $key; ?>"><?php echo $value; ?></option>
             <?php endforeach; ?>
 
             </select>
