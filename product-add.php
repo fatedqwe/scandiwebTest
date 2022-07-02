@@ -53,7 +53,7 @@ include "product.php";
 
             <div class="price">
                 <label id="price">Price($)</label>
-                <input class="text_price" type="number" name="price" min="0" required="true">
+                <input class="text_price" type="number" onkeydown="return event.keyCode !== 69" name="price" min="0" required="true">
             </div>
             <div class="select">
                 <label for="select">Type Switcher</label>
@@ -148,7 +148,6 @@ include "product.php";
     const createFurnitureInput = (parentElement) => {
         let container = document.createElement("div");
         let container2 = document.createElement("div");
-
         let labelHeight = document.createElement("label");
         let labelWidth = document.createElement("label");
         let labelLength = document.createElement("label");
