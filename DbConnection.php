@@ -2,10 +2,10 @@
 
 class DbConnection
 {
-    private $ip = "127.0.0.1";
-    private $name = "root";
-    private $password = "";
-    private $database = "product_list";
+    private $ip = "sql11.freemysqlhosting.net";
+    private $name = "sql11503433";
+    private $password = "mj3S4XwW68";
+    private $database = "sql11503433";
 
     public function getConnection()
     {
